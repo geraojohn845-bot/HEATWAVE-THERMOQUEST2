@@ -1,0 +1,3102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="THERMOQUEST is an interactive thermodynamics learning platform for students. Explore the laws of thermodynamics, scientific concepts, simulations, and activities.">
+
+    <title>HEATWAVE | THERMOQUEST</title>
+    <!-- Professional Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header class="header">
+        <a href="#home" class="logo">
+    <span class="brand-name">HEATWAVE</span>
+    <span class="brand-platform">THERMOQUEST</span>
+</a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Open navigation" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#lessons">Lessons</a></li>
+                <li><a href="#laws">Four Laws</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <a href="#lessons" class="nav-button">Start Learning</a>
+
+        </nav>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <main>
+
+    <section class="hero" id="home">
+
+        <div class="hero-background"></div>
+
+        <div class="container hero-content">
+
+            <div class="hero-text">
+
+                <span class="hero-label">
+                    SCIENCE • ENERGY • DISCOVERY
+                </span>
+
+                <h1>
+                    Understand Energy.<br>
+                    Explore the Science<br>
+                    of <span>Thermodynamics.</span>
+                </h1>
+
+                <p>
+                    Discover how heat, temperature, energy, and work
+                    shape the world around us. Learn scientific concepts
+                    through comprehensive lessons, interactive activities,
+                    and real-world applications.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#lessons" class="btn btn-primary">
+                        Explore Lessons
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#laws" class="btn btn-outline">
+                        Discover the Four Laws
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <h3>04</h3>
+                        <p>Fundamental Laws</p>
+                    </div>
+
+                    <div>
+                        <h3>06+</h3>
+                        <p>Learning Topics</p>
+                    </div>
+
+                    <div>
+                        <h3>100%</h3>
+                        <p>Learning Focus</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+                <div class="science-card">
+                    <div class="science-card-top">
+                        <span>THERMODYNAMIC SYSTEM</span>
+                        <i class="fas fa-atom"></i>
+                    </div>
+
+                    <div class="science-illustration">
+                        <i class="fas fa-temperature-high"></i>
+                    </div>
+
+                    <div class="science-formula">
+                        <span>FIRST LAW OF THERMODYNAMICS</span>
+                        <h2>ΔU = Q − W</h2>
+                        <p>Energy cannot be created or destroyed.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- INTRODUCTION -->
+    <section class="introduction section-padding">
+
+        <div class="container intro-grid">
+
+            <div class="section-heading">
+                <span class="section-label">INTRODUCTION</span>
+
+                <h2>
+                    What is <span>Thermodynamics?</span>
+                </h2>
+
+                <p>
+                    Thermodynamics is a branch of physics that studies
+                    heat, temperature, energy, work, and their relationships.
+                    It explains how energy is transferred and transformed
+                    in physical systems.
+                </p>
+
+                <p>
+                    From boiling water and operating engines to refrigerators
+                    and power plants, thermodynamics helps us understand
+                    important processes in everyday life and modern technology.
+                </p>
+
+                <a href="#lessons" class="text-link">
+                    Begin your learning journey
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="intro-facts">
+
+                <div class="fact-card">
+                    <i class="fas fa-fire"></i>
+                    <h3>Heat</h3>
+                    <p>Energy transferred because of a temperature difference.</p>
+                </div>
+
+                <div class="fact-card">
+                    <i class="fas fa-temperature-half"></i>
+                    <h3>Temperature</h3>
+                    <p>A measure related to the average kinetic energy of particles.</p>
+                </div>
+
+                <div class="fact-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Energy</h3>
+                    <p>The capacity of a system to transfer energy or perform work.</p>
+                </div>
+
+                <div class="fact-card">
+                    <i class="fas fa-gears"></i>
+                    <h3>Work</h3>
+                    <p>Energy transferred through a force acting over a displacement.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    
+<section class="lessons-section" id="lessons">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-label">EXPLORE AND LEARN</span>
+            <h2>Thermodynamics Learning Center</h2>
+            <p>
+                Develop your understanding of thermodynamics
+                through organized lessons and scientific concepts.
+            </p>
+        </div>
+
+        <div class="lessons-grid">
+
+            <article class="lesson-card">
+                <span class="lesson-number">LESSON 01</span>
+                <h3>Introduction to Thermodynamics</h3>
+                <p>Discover the fundamental concepts of thermodynamics,
+                systems, surroundings, and energy.</p>
+                <a href="#lesson-1" class="btn btn-outline">Explore Lesson</a>
+            </article>
+
+            <article class="lesson-card">
+                <span class="lesson-number">LESSON 02</span>
+                <h3>Temperature and Heat</h3>
+                <p>Understand temperature, thermal energy,
+                heat, and temperature scales.</p>
+                <a href="#lesson-2" class="btn btn-outline">Explore Lesson</a>
+            </article>
+
+            <article class="lesson-card">
+                <span class="lesson-number">LESSON 03</span>
+                <h3>Heat Transfer</h3>
+                <p>Explore conduction, convection, and radiation
+                through everyday examples.</p>
+                <a href="#lesson-3" class="btn btn-outline">Explore Lesson</a>
+            </article>
+
+            <article class="lesson-card">
+                <span class="lesson-number">LESSON 04</span>
+                <h3>Internal Energy and Work</h3>
+                <p>Learn how energy and work interact
+                in thermodynamic systems.</p>
+                <a href="#lesson-4" class="btn btn-outline">Explore Lesson</a>
+            </article>
+
+            <article class="lesson-card">
+                <span class="lesson-number">LESSON 05</span>
+                <h3>Entropy and Energy Efficiency</h3>
+                <p>Understand entropy, energy transformations,
+                and the Second Law of Thermodynamics.</p>
+                <a href="#lesson-5" class="btn btn-outline">Explore Lesson</a>
+            </article>
+
+            <article class="lesson-card">
+                <span class="lesson-number">LESSON 06</span>
+                <h3>Applications of Thermodynamics</h3>
+                <p>Connect thermodynamic principles
+                to technology, engineering, and daily life.</p>
+                <a href="#lesson-6" class="btn btn-outline">Explore Lesson</a>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- FOUR LAWS -->
+    <section class="laws section-padding" id="laws">
+
+        <div class="container">
+
+            <div class="section-title">
+                <span class="section-label">FUNDAMENTAL PRINCIPLES</span>
+                <h2>The Four Laws of <span>Thermodynamics</span></h2>
+                <p>
+                    Understand the scientific principles governing
+                    thermal energy and physical systems.
+                </p>
+            </div>
+
+            <div class="law-grid">
+
+                <article class="law-card">
+                    <span class="law-badge">ZEROTH LAW</span>
+                    <h3>Thermal Equilibrium</h3>
+                    <p>
+                        If two systems are each in thermal equilibrium
+                        with a third system, they are in thermal
+                        equilibrium with each other.
+                    </p>
+                    <div class="law-formula">
+                        If A = C and B = C, then A = B
+                    </div>
+                </article>
+
+                <article class="law-card">
+                    <span class="law-badge">FIRST LAW</span>
+                    <h3>Conservation of Energy</h3>
+                    <p>
+                        The change in internal energy of a system equals
+                        the heat added to the system minus the work
+                        done by the system.
+                    </p>
+                    <div class="law-formula">
+                        ΔU = Q − W
+                    </div>
+                </article>
+
+    <!-- =================================================
+         THERMOQUEST LESSON CONTENT
+    ================================================== -->
+
+    <section class="lesson-content-section" id="lesson-content">
+
+        <div class="container">
+
+            <!-- LESSON 01 -->
+            <article class="lesson-detail" id="lesson-1">
+
+                <
+<article class="lesson-detail" id="lesson-1">
+
+    <div class="module-header">
+        <span class="section-label">MODULE 01 | FUNDAMENTALS</span>
+        <h2>Introduction to Thermodynamics</h2>
+        <p class="lesson-intro">
+            Discover how heat, work, temperature, and energy
+            explain the behavior of physical systems.
+        </p>
+        <div class="module-meta">
+            <span>College Level</span>
+            <span>Estimated Time: 30–40 Minutes</span>
+        </div>
+    </div>
+
+    <div class="module-objectives">
+        <h3>Learning Objectives</h3>
+        <p>At the end of this module, students should be able to:</p>
+        <ul>
+            <li>Define thermodynamics and explain its importance in physics.</li>
+            <li>Differentiate heat, temperature, work, and internal energy.</li>
+            <li>Identify a thermodynamic system, surroundings, and boundary.</li>
+            <li>Classify open, closed, and isolated systems.</li>
+            <li>Explain practical applications of thermodynamics.</li>
+        </ul>
+    </div>
+
+    <div class="module-lesson">
+
+        <h3>1.1 Understanding Thermodynamics</h3>
+
+        <p>
+            Thermodynamics is a branch of physics that studies
+            the relationships among heat, temperature, work,
+            and energy. It explains how energy is transferred
+            and transformed in physical and chemical processes.
+        </p>
+
+        <p>
+            The principles of thermodynamics are important in
+            understanding engines, refrigerators, power plants,
+            industrial equipment, and many natural processes.
+        </p>
+
+        <div class="lesson-highlight">
+            <h4>Key Idea</h4>
+            <p>
+                Energy can be transferred and transformed.
+                Thermodynamics provides the scientific principles
+                used to analyze these changes.
+            </p>
+        </div>
+
+        <h3>1.2 Fundamental Concepts</h3>
+
+        <div class="concept-grid">
+
+            <div class="concept-card">
+                <h4>Heat</h4>
+                <p>
+                    Energy transferred between systems because
+                    of a temperature difference.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Temperature</h4>
+                <p>
+                    A physical property related to the average
+                    kinetic energy of particles.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Work</h4>
+                <p>
+                    Energy transferred when a force acts through
+                    a displacement or through other generalized
+                    thermodynamic interactions.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Internal Energy</h4>
+                <p>
+                    The microscopic kinetic and potential energy
+                    associated with the particles of a system.
+                </p>
+            </div>
+
+        </div>
+
+        <h3>1.3 Thermodynamic Systems</h3>
+
+        <p>
+            A thermodynamic system is a specified quantity of
+            matter or a region in space selected for analysis.
+            Everything outside the system is called the
+            surroundings. The surface separating them is
+            called the boundary.
+        </p>
+
+        <div class="concept-grid">
+
+            <div class="concept-card">
+                <h4>System</h4>
+                <p>The matter or region being studied.</p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Surroundings</h4>
+                <p>Everything outside the selected system.</p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Boundary</h4>
+                <p>
+                    The real or imaginary surface separating
+                    the system from its surroundings.
+                </p>
+            </div>
+
+        </div>
+
+        <h3>1.4 Types of Thermodynamic Systems</h3>
+
+        <div class="concept-grid">
+
+            <div class="concept-card">
+                <h4>Open System</h4>
+                <p>
+                    Exchanges both matter and energy with
+                    its surroundings.
+                </p>
+                <strong>Example: Boiling water in an uncovered pot.</strong>
+            </div>
+
+            <div class="concept-card">
+                <h4>Closed System</h4>
+                <p>
+                    Exchanges energy but not matter with
+                    its surroundings.
+                </p>
+                <strong>Example: Gas inside a sealed piston.</strong>
+            </div>
+
+            <div class="concept-card">
+                <h4>Isolated System</h4>
+                <p>
+                    Ideally exchanges neither matter nor
+                    energy with its surroundings.
+                </p>
+                <strong>Example: An ideal perfectly insulated sealed container.</strong>
+            </div>
+
+        </div>
+
+        <h3>1.5 Practical Applications</h3>
+
+        <p>
+            Thermodynamics is applied in several technologies
+            and everyday activities.
+        </p>
+
+        <ul>
+            <li>Automobile engines convert thermal energy into mechanical work.</li>
+            <li>Refrigerators transfer heat from a colder space to warmer surroundings using work input.</li>
+            <li>Power plants convert energy into electrical power.</li>
+            <li>Cooking involves heat transfer and changes in the internal energy of food.</li>
+            <li>Air-conditioning systems regulate indoor temperature.</li>
+        </ul>
+
+        <div class="module-summary">
+            <h3>Module Summary</h3>
+            <p>
+                Thermodynamics studies heat, temperature, work,
+                and energy. Understanding systems, surroundings,
+                boundaries, and system classifications provides
+                the foundation for studying the laws of
+                thermodynamics.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="module-activity">
+        <h3>Interactive Activity: Classify the System</h3>
+        <p>
+            Identify whether each situation represents an
+            open, closed, or isolated system.
+        </p>
+
+        <div id="systemClassification">
+            <p id="systemScenario">
+                A sealed bottle of cold water is placed inside
+                a refrigerator.
+            </p>
+
+            <div class="activity-options">
+                <button type="button" class="system-option" data-answer="open">
+                    Open System
+                </button>
+
+                <button type="button" class="system-option" data-answer="closed">
+                    Closed System
+                </button>
+
+                <button type="button" class="system-option" data-answer="isolated">
+                    Isolated System
+                </button>
+            </div>
+
+            <p id="systemFeedback" aria-live="polite">
+                Select your answer to receive feedback.
+            </p>
+
+            <button type="button" id="nextSystemScenario">
+                Next Scenario
+            </button>
+        </div>
+    </div>
+
+    <div class="module-knowledge-check">
+        <h3>Knowledge Check</h3>
+        <p>
+            Complete the five-question assessment to review
+            your understanding of this module.
+        </p>
+
+        <button type="button" id="startLesson1Quiz">
+            Start Module 1 Quiz
+        </button>
+
+        <div id="lesson1Quiz" class="hidden">
+            <p id="lesson1Question"></p>
+            <div id="lesson1Answers"></div>
+            <p id="lesson1Feedback" aria-live="polite"></p>
+            <button type="button" id="nextLesson1Question" class="hidden">
+                Next Question
+            </button>
+        </div>
+
+        <div id="lesson1QuizResult" class="hidden">
+            <h4>Module 1 Results</h4>
+            <p id="lesson1FinalScore"></p>
+        </div>
+    </div>
+
+    <div class="module-completion">
+        <button type="button" id="completeLesson1">
+            Mark Module 1 as Complete
+        </button>
+        <p id="lesson1CompletionMessage" aria-live="polite"></p>
+    </div>
+
+    <a href="#lessons" class="text-link">Back to Learning Center</a>
+
+</article>
+
+
+
+            <!-- LESSON 02 -->
+            <article class="lesson-detail" id="lesson-2">
+
+                
+<article class="lesson-detail" id="lesson-2">
+
+    <div class="module-header">
+        <span class="section-label">MODULE 02 | THERMAL SCIENCE</span>
+        <h2>Temperature and Heat</h2>
+        <p class="lesson-intro">
+            Understand the difference between temperature and heat,
+            explore temperature scales, and calculate thermal energy
+            transferred between substances.
+        </p>
+        <div class="module-meta">
+            <span>College Level</span>
+            <span>Estimated Time: 35–45 Minutes</span>
+        </div>
+    </div>
+
+    <div class="module-objectives">
+        <h3>Learning Objectives</h3>
+        <p>At the end of this module, students should be able to:</p>
+        <ul>
+            <li>Differentiate heat from temperature.</li>
+            <li>Explain the relationship between temperature and particle motion.</li>
+            <li>Convert temperatures between Celsius, Kelvin, and Fahrenheit.</li>
+            <li>Define specific heat capacity and explain its importance.</li>
+            <li>Apply the heat energy equation to solve quantitative problems.</li>
+        </ul>
+    </div>
+
+    <div class="module-lesson">
+
+        <h3>2.1 Understanding Temperature</h3>
+
+        <p>
+            Temperature is a physical property that describes the
+            thermal condition of a substance. For an ideal gas,
+            temperature is directly related to the average
+            translational kinetic energy of its particles.
+        </p>
+
+        <p>
+            When the temperature of a substance increases, the
+            average kinetic energy of its particles generally
+            increases. When its temperature decreases, the
+            average kinetic energy generally decreases.
+        </p>
+
+        <div class="lesson-highlight">
+            <h4>Important Concept</h4>
+            <p>
+                Temperature indicates how hot or cold a substance
+                is. It is not the same as the total thermal energy
+                contained in an object.
+            </p>
+        </div>
+
+        <h3>2.2 Understanding Heat</h3>
+
+        <p>
+            Heat is energy transferred between two systems or
+            objects because of a temperature difference.
+            Under ordinary conditions, energy transfers
+            spontaneously from a higher-temperature object
+            to a lower-temperature object.
+        </p>
+
+        <p>
+            Heat transfer continues until the objects reach
+            thermal equilibrium, assuming no other energy
+            interactions interfere.
+        </p>
+
+        <div class="concept-grid">
+
+            <div class="concept-card">
+                <h4>Temperature</h4>
+                <p>
+                    A property describing the thermal state
+                    of a substance.
+                </p>
+                <strong>SI unit: Kelvin (K)</strong>
+            </div>
+
+            <div class="concept-card">
+                <h4>Heat</h4>
+                <p>
+                    Energy transferred because of a
+                    temperature difference.
+                </p>
+                <strong>SI unit: Joule (J)</strong>
+            </div>
+
+        </div>
+
+        <h3>2.3 Temperature Scales</h3>
+
+        <p>
+            Temperature can be expressed using different
+            measurement scales. The three commonly used
+            scales are Celsius, Kelvin, and Fahrenheit.
+        </p>
+
+        <div class="formula-card">
+            <p>Celsius to Kelvin</p>
+            <strong>K = °C + 273.15</strong>
+
+            <p>Kelvin to Celsius</p>
+            <strong>°C = K − 273.15</strong>
+
+            <p>Celsius to Fahrenheit</p>
+            <strong>°F = (°C × 9/5) + 32</strong>
+
+            <p>Fahrenheit to Celsius</p>
+            <strong>°C = (°F − 32) × 5/9</strong>
+        </div>
+
+        <h3>2.4 Specific Heat Capacity</h3>
+
+        <p>
+            Specific heat capacity is the amount of energy
+            required to raise the temperature of one kilogram
+            of a substance by one kelvin, without a change
+            in phase.
+        </p>
+
+        <p>
+            Different substances have different specific
+            heat capacities. For example, water has a relatively
+            high specific heat capacity, which means it requires
+            considerable energy to change its temperature.
+        </p>
+
+        <div class="formula-card">
+            <p>Specific Heat Capacity Equation</p>
+            <strong>Q = mcΔT</strong>
+
+            <p>Where:</p>
+            <ul>
+                <li>Q = heat transferred (J)</li>
+                <li>m = mass of the substance (kg)</li>
+                <li>c = specific heat capacity (J/kg·K)</li>
+                <li>ΔT = final temperature − initial temperature (K or °C difference)</li>
+            </ul>
+        </div>
+
+        <h3>2.5 Worked Example</h3>
+
+        <p>
+            A 0.5 kg quantity of water is heated from 25°C
+            to 45°C. If the specific heat capacity of water
+            is 4,186 J/kg·K, calculate the heat absorbed.
+        </p>
+
+        <div class="formula-card">
+            <p>Given:</p>
+            <strong>m = 0.5 kg</strong>
+            <strong>c = 4,186 J/kg·K</strong>
+            <strong>ΔT = 45 − 25 = 20 K</strong>
+
+            <p>Solution:</p>
+            <strong>Q = mcΔT</strong>
+            <strong>Q = (0.5)(4,186)(20)</strong>
+            <strong>Q = 41,860 J</strong>
+
+            <p>
+                Therefore, the water absorbs 41,860 joules
+                of heat energy.
+            </p>
+        </div>
+
+        <h3>2.6 Factors Affecting Heat Transfer</h3>
+
+        <ul>
+            <li><strong>Mass:</strong> Greater mass requires more energy for the same temperature change, if the material is the same.</li>
+            <li><strong>Specific heat capacity:</strong> Substances with higher specific heat capacities require more energy for the same mass and temperature change.</li>
+            <li><strong>Temperature change:</strong> A greater temperature change requires more energy transfer under the assumptions of the equation.</li>
+        </ul>
+
+        <h3>2.7 Real-World Applications</h3>
+
+        <ul>
+            <li>Water is used in some cooling systems because of its high specific heat capacity.</li>
+            <li>Cooking requires thermal energy to increase the temperature of food.</li>
+            <li>Weather and climate are influenced by the different heating and cooling rates of land and water.</li>
+            <li>Thermometers measure temperature changes in scientific and everyday applications.</li>
+            <li>Industrial heating systems use heat calculations to manage energy requirements.</li>
+        </ul>
+
+        <div class="module-summary">
+            <h3>Module Summary</h3>
+            <p>
+                Temperature describes the thermal state of a
+                substance, while heat is energy transferred
+                because of a temperature difference. Specific
+                heat capacity describes how much energy is
+                required to change a substance's temperature.
+                The equation Q = mcΔT helps calculate heat
+                transfer when there is no phase change and
+                the specific heat capacity is treated as constant.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="module-activity">
+        <h3>Interactive Activity: Temperature Converter</h3>
+        <p>
+            Enter a temperature and select a conversion
+            to explore the relationship between temperature scales.
+        </p>
+
+        <label for="lesson2Temperature">Enter Temperature</label>
+        <input
+            type="number"
+            id="lesson2Temperature"
+            placeholder="Enter a value"
+        >
+
+        <label for="lesson2Scale">Convert From</label>
+        <select id="lesson2Scale">
+            <option value="celsius">Celsius</option>
+            <option value="kelvin">Kelvin</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+
+        <button type="button" id="convertLesson2Temperature">
+            Convert Temperature
+        </button>
+
+        <div id="lesson2ConversionResult" aria-live="polite">
+            Your conversion results will appear here.
+        </div>
+    </div>
+
+    <div class="module-knowledge-check">
+        <h3>Knowledge Check</h3>
+        <p>
+            Test your understanding of temperature, heat,
+            temperature scales, and specific heat capacity.
+        </p>
+
+        <button type="button" id="startLesson2Quiz">
+            Start Module 2 Quiz
+        </button>
+
+        <div id="lesson2Quiz" class="hidden">
+            <p id="lesson2Question"></p>
+            <div id="lesson2Answers"></div>
+            <p id="lesson2Feedback" aria-live="polite"></p>
+            <button type="button" id="nextLesson2Question" class="hidden">
+                Next Question
+            </button>
+        </div>
+
+        <div id="lesson2QuizResult" class="hidden">
+            <h4>Module 2 Results</h4>
+            <p id="lesson2FinalScore"></p>
+        </div>
+    </div>
+
+    <div class="module-completion">
+        <button type="button" id="completeLesson2">
+            Mark Module 2 as Complete
+        </button>
+        <p id="lesson2CompletionMessage" aria-live="polite"></p>
+    </div>
+
+    <a href="#lessons" class="text-link">Back to Learning Center</a>
+
+</article>
+
+
+
+            <!-- LESSON 03 -->
+            <article class="lesson-detail" id="lesson-3">
+
+                
+<article class="lesson-detail" id="lesson-3">
+
+    <div class="module-header">
+        <span class="section-label">MODULE 03 | THERMAL ENERGY TRANSFER</span>
+        <h2>Heat Transfer</h2>
+        <p class="lesson-intro">
+            Explore how thermal energy moves through solids,
+            liquids, gases, and empty space through conduction,
+            convection, and radiation.
+        </p>
+        <div class="module-meta">
+            <span>College Level</span>
+            <span>Estimated Time: 40–50 Minutes</span>
+        </div>
+    </div>
+
+    <div class="module-objectives">
+        <h3>Learning Objectives</h3>
+        <p>At the end of this module, students should be able to:</p>
+        <ul>
+            <li>Define heat transfer and explain its direction.</li>
+            <li>Differentiate conduction, convection, and radiation.</li>
+            <li>Explain the mechanisms involved in each method.</li>
+            <li>Apply basic heat transfer equations to scientific problems.</li>
+            <li>Identify heat transfer mechanisms in everyday situations.</li>
+        </ul>
+    </div>
+
+    <div class="module-lesson">
+
+        <h3>3.1 Introduction to Heat Transfer</h3>
+
+        <p>
+            Heat transfer is the movement of thermal energy
+            from one object, substance, or region to another
+            because of a temperature difference.
+        </p>
+
+        <p>
+            In spontaneous heat transfer, energy moves from
+            a higher-temperature region toward a lower-temperature
+            region until thermal equilibrium is reached,
+            provided no external energy input changes the process.
+        </p>
+
+        <div class="lesson-highlight">
+            <h4>Fundamental Principle</h4>
+            <p>
+                Heat transfer occurs through three primary
+                mechanisms: conduction, convection, and radiation.
+                More than one mechanism may occur at the same time.
+            </p>
+        </div>
+
+        <h3>3.2 Conduction</h3>
+
+        <p>
+            Conduction is the transfer of thermal energy through
+            direct interactions between neighboring particles
+            or through mobile electrons in certain materials.
+            The material does not undergo bulk movement as a
+            whole during conduction.
+        </p>
+
+        <p>
+            Conduction is especially important in solids.
+            Metals are generally good thermal conductors because
+            they contain mobile electrons that help transfer energy.
+        </p>
+
+        <div class="concept-grid">
+            <div class="concept-card">
+                <h4>Mechanism</h4>
+                <p>
+                    Energy is transferred through particle
+                    interactions and, in metals, mobile electrons.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Common Materials</h4>
+                <p>
+                    Copper, aluminum, iron, steel, wood,
+                    plastic, and other solids.
+                </p>
+            </div>
+        </div>
+
+        <h4>Fourier's Law of Heat Conduction</h4>
+
+        <div class="formula-card">
+            <p>Heat Transfer Rate</p>
+            <strong>Q/t = kAΔT/L</strong>
+            <p>Where:</p>
+            <ul>
+                <li>Q/t = rate of heat transfer (W)</li>
+                <li>k = thermal conductivity (W/m·K)</li>
+                <li>A = cross-sectional area (m²)</li>
+                <li>ΔT = temperature difference (K)</li>
+                <li>L = material thickness or length (m)</li>
+            </ul>
+            <p>
+                This equation gives the magnitude of the heat
+                transfer rate for steady, one-dimensional
+                conduction through a uniform plane wall.
+            </p>
+        </div>
+
+        <h3>3.3 Convection</h3>
+
+        <p>
+            Convection is the transfer of thermal energy through
+            the movement of fluids, including liquids and gases.
+            It involves both energy transfer between particles
+            and the bulk movement of the fluid.
+        </p>
+
+        <p>
+            When a fluid is heated, its density may decrease
+            and it may rise. Cooler, denser fluid may then move
+            downward, producing circulation called natural
+            convection.
+        </p>
+
+        <div class="concept-grid">
+            <div class="concept-card">
+                <h4>Natural Convection</h4>
+                <p>
+                    Fluid motion develops because of density
+                    differences caused by temperature variations.
+                </p>
+                <strong>Example: Circulation of water in a heated pot.</strong>
+            </div>
+
+            <div class="concept-card">
+                <h4>Forced Convection</h4>
+                <p>
+                    Fluid motion is produced by an external
+                    device such as a fan or pump.
+                </p>
+                <strong>Example: A fan cooling a warm computer.</strong>
+            </div>
+        </div>
+
+        <h4>Newton's Law of Cooling</h4>
+
+        <div class="formula-card">
+            <p>Convective Heat Transfer Rate</p>
+            <strong>Q/t = hA(Ts − T∞)</strong>
+            <p>Where:</p>
+            <ul>
+                <li>h = convective heat transfer coefficient (W/m²·K)</li>
+                <li>A = exposed surface area (m²)</li>
+                <li>Ts = surface temperature (K)</li>
+                <li>T∞ = surrounding fluid temperature (K)</li>
+            </ul>
+        </div>
+
+        <h3>3.4 Radiation</h3>
+
+        <p>
+            Radiation is the transfer of thermal energy through
+            electromagnetic waves. Unlike conduction and convection,
+            radiation does not require a material medium and can
+            occur through a vacuum.
+        </p>
+
+        <p>
+            All objects with a temperature above absolute zero
+            emit thermal radiation. The amount and distribution
+            of emitted radiation depend on the object's temperature
+            and surface properties.
+        </p>
+
+        <div class="concept-grid">
+            <div class="concept-card">
+                <h4>Mechanism</h4>
+                <p>
+                    Energy travels through electromagnetic waves,
+                    including infrared radiation.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Examples</h4>
+                <p>
+                    Sunlight reaching Earth and warmth felt
+                    near a hot surface.
+                </p>
+            </div>
+        </div>
+
+        <h4>Stefan–Boltzmann Law</h4>
+
+        <div class="formula-card">
+            <p>Radiative Heat Transfer Rate</p>
+            <strong>P = εσA(T⁴ − Tsurr⁴)</strong>
+            <p>Where:</p>
+            <ul>
+                <li>P = net radiative heat transfer rate (W)</li>
+                <li>ε = surface emissivity</li>
+                <li>σ = Stefan–Boltzmann constant (5.67 × 10⁻⁸ W/m²·K⁴)</li>
+                <li>A = radiating surface area (m²)</li>
+                <li>T = absolute surface temperature (K)</li>
+                <li>Tsurr = absolute surrounding temperature (K)</li>
+            </ul>
+            <p>
+                This expression assumes a surface exchanging
+                radiation with a large surrounding environment.
+            </p>
+        </div>
+
+        <h3>3.5 Comparing the Three Methods</h3>
+
+        <div class="concept-grid">
+            <div class="concept-card">
+                <h4>Conduction</h4>
+                <p>Direct energy transfer through particle interactions.</p>
+                <strong>Requires material contact.</strong>
+            </div>
+
+            <div class="concept-card">
+                <h4>Convection</h4>
+                <p>Energy transfer involving bulk fluid movement.</p>
+                <strong>Occurs in liquids and gases.</strong>
+            </div>
+
+            <div class="concept-card">
+                <h4>Radiation</h4>
+                <p>Energy transfer through electromagnetic waves.</p>
+                <strong>Can occur through a vacuum.</strong>
+            </div>
+        </div>
+
+        <h3>3.6 Worked Example: Conduction</h3>
+
+        <p>
+            A metal plate has a thermal conductivity of
+            200 W/m·K, a surface area of 0.02 m², and a
+            thickness of 0.05 m. Its two surfaces have
+            temperatures of 100°C and 40°C. Calculate
+            the steady heat transfer rate.
+        </p>
+
+        <div class="formula-card">
+            <p>Given:</p>
+            <strong>k = 200 W/m·K</strong>
+            <strong>A = 0.02 m²</strong>
+            <strong>ΔT = 100 − 40 = 60 K</strong>
+            <strong>L = 0.05 m</strong>
+
+            <p>Solution:</p>
+            <strong>Q/t = kAΔT/L</strong>
+            <strong>Q/t = (200)(0.02)(60)/0.05</strong>
+            <strong>Q/t = 4,800 W</strong>
+
+            <p>
+                The steady heat transfer rate through the
+                plate is 4,800 watts.
+            </p>
+        </div>
+
+        <h3>3.7 Real-World Applications</h3>
+
+        <ul>
+            <li>Insulation reduces unwanted heat transfer in buildings.</li>
+            <li>Metal cookware uses conduction to transfer energy to food.</li>
+            <li>Fans and ventilation systems enhance forced convection.</li>
+            <li>Solar thermal collectors absorb radiation from sunlight.</li>
+            <li>Radiators and heat exchangers manage thermal energy in machines.</li>
+        </ul>
+
+        <div class="module-summary">
+            <h3>Module Summary</h3>
+            <p>
+                Heat transfer occurs through conduction,
+                convection, and radiation. Conduction involves
+                particle interactions, convection involves
+                fluid motion, and radiation involves
+                electromagnetic waves. These mechanisms are
+                essential in engineering, environmental science,
+                and everyday technology.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="module-activity">
+        <h3>Interactive Activity: Identify the Heat Transfer Method</h3>
+        <p>
+            Read each situation and identify the primary
+            method of heat transfer.
+        </p>
+
+        <div id="lesson3Activity">
+            <p id="lesson3Scenario">
+                A metal spoon becomes hot after being placed
+                inside a cup of hot coffee.
+            </p>
+
+            <div class="activity-options">
+                <button type="button" class="lesson3-option" data-answer="conduction">
+                    Conduction
+                </button>
+
+                <button type="button" class="lesson3-option" data-answer="convection">
+                    Convection
+                </button>
+
+                <button type="button" class="lesson3-option" data-answer="radiation">
+                    Radiation
+                </button>
+            </div>
+
+            <p id="lesson3ActivityFeedback" aria-live="polite">
+                Select your answer.
+            </p>
+
+            <button type="button" id="nextLesson3Scenario">
+                Next Scenario
+            </button>
+        </div>
+    </div>
+
+    <div class="module-knowledge-check">
+        <h3>Knowledge Check</h3>
+        <p>
+            Evaluate your understanding of the three methods
+            of heat transfer.
+        </p>
+
+        <button type="button" id="startLesson3Quiz">
+            Start Module 3 Quiz
+        </button>
+
+        <div id="lesson3Quiz" class="hidden">
+            <p id="lesson3Question"></p>
+            <div id="lesson3Answers"></div>
+            <p id="lesson3Feedback" aria-live="polite"></p>
+            <button type="button" id="nextLesson3Question" class="hidden">
+                Next Question
+            </button>
+        </div>
+
+        <div id="lesson3QuizResult" class="hidden">
+            <h4>Module 3 Results</h4>
+            <p id="lesson3FinalScore"></p>
+        </div>
+    </div>
+
+    <div class="module-completion">
+        <button type="button" id="completeLesson3">
+            Mark Module 3 as Complete
+        </button>
+        <p id="lesson3CompletionMessage" aria-live="polite"></p>
+    </div>
+
+    <a href="#lessons" class="text-link">Back to Learning Center</a>
+
+</article>
+
+
+            <!-- LESSON 04 -->
+            
+<article class="lesson-detail" id="lesson-4">
+
+    <div class="module-header">
+        <span class="section-label">MODULE 04 | ENERGY CONSERVATION</span>
+        <h2>Internal Energy and Work</h2>
+        <p class="lesson-intro">
+            Explore how energy is stored within thermodynamic
+            systems and how heat and work cause changes in
+            internal energy.
+        </p>
+        <div class="module-meta">
+            <span>College Level</span>
+            <span>Estimated Time: 40–50 Minutes</span>
+        </div>
+    </div>
+
+    <div class="module-objectives">
+        <h3>Learning Objectives</h3>
+        <p>At the end of this module, students should be able to:</p>
+        <ul>
+            <li>Define internal energy and identify its microscopic contributions.</li>
+            <li>Explain heat and work as modes of energy transfer.</li>
+            <li>State and interpret the First Law of Thermodynamics.</li>
+            <li>Distinguish work done by a system from work done on a system.</li>
+            <li>Solve numerical problems involving changes in internal energy.</li>
+        </ul>
+    </div>
+
+    <div class="module-lesson">
+
+        <h3>4.1 Understanding Internal Energy</h3>
+
+        <p>
+            Internal energy is the total microscopic energy
+            associated with the particles that make up a
+            thermodynamic system. It includes microscopic
+            kinetic energy, such as molecular translation,
+            rotation, and vibration, as well as microscopic
+            potential energy arising from interactions
+            between particles.
+        </p>
+
+        <p>
+            Internal energy is a state property. Its change
+            depends on the initial and final states of the
+            system, rather than the particular path taken
+            between those states.
+        </p>
+
+        <div class="lesson-highlight">
+            <h4>Important Concept</h4>
+            <p>
+                Internal energy is different from the total
+                macroscopic kinetic and potential energy of
+                a system moving through its surroundings.
+            </p>
+        </div>
+
+        <h3>4.2 Factors Affecting Internal Energy</h3>
+
+        <div class="concept-grid">
+
+            <div class="concept-card">
+                <h4>Temperature</h4>
+                <p>
+                    Changes in temperature often change the
+                    average microscopic kinetic energy of particles.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Phase and Molecular Arrangement</h4>
+                <p>
+                    Changes in phase and particle interactions
+                    can change the microscopic potential energy.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Amount of Substance</h4>
+                <p>
+                    The total internal energy generally depends
+                    on the amount of material in the system.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>State of the System</h4>
+                <p>
+                    Pressure, volume, temperature, and composition
+                    can help determine the system's internal energy.
+                </p>
+            </div>
+
+        </div>
+
+        <h3>4.3 Understanding Work in Thermodynamics</h3>
+
+        <p>
+            Work is energy transferred between a system
+            and its surroundings through an organized
+            interaction. In a gas contained in a movable
+            piston, expansion or compression can involve
+            pressure-volume work.
+        </p>
+
+        <p>
+            When a gas expands against an external pressure,
+            it can perform work on its surroundings.
+            When the gas is compressed, work is done on
+            the system.
+        </p>
+
+        <div class="formula-card">
+            <p>Pressure-Volume Work</p>
+            <strong>W = ∫ Pext dV</strong>
+            <p>
+                For constant external pressure:
+            </p>
+            <strong>W = Pext(V₂ − V₁)</strong>
+            <p>
+                W = work done by the system, Pext = external
+                pressure, and V₂ − V₁ = change in volume.
+            </p>
+        </div>
+
+        <h3>4.4 The First Law of Thermodynamics</h3>
+
+        <p>
+            The First Law of Thermodynamics is a statement
+            of the conservation of energy. It explains that
+            the change in a system's internal energy is equal
+            to the heat added to the system minus the work
+            done by the system.
+        </p>
+
+        <div class="formula-card">
+            <p>First Law of Thermodynamics</p>
+            <strong>ΔU = Q − W</strong>
+            <ul>
+                <li>ΔU = change in internal energy (J)</li>
+                <li>Q = heat added to the system (J)</li>
+                <li>W = work done by the system (J)</li>
+            </ul>
+            <p>
+                Sign convention: heat entering the system
+                is positive, while work performed by the
+                system is positive.
+            </p>
+        </div>
+
+        <h3>4.5 Understanding the Sign Convention</h3>
+
+        <div class="concept-grid">
+
+            <div class="concept-card">
+                <h4>Positive Heat (Q)</h4>
+                <p>
+                    Heat enters the system, increasing the
+                    energy transferred into it.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Negative Heat (Q)</h4>
+                <p>
+                    Heat leaves the system and transfers
+                    to the surroundings.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Positive Work (W)</h4>
+                <p>
+                    The system performs work on its surroundings.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Negative Work (W)</h4>
+                <p>
+                    Work is performed on the system by
+                    its surroundings.
+                </p>
+            </div>
+
+        </div>
+
+        <h3>4.6 Special Thermodynamic Processes</h3>
+
+        <div class="concept-grid">
+
+            <div class="concept-card">
+                <h4>Isothermal Process</h4>
+                <p>
+                    A process occurring at constant temperature.
+                    For an ideal gas, internal energy does not
+                    change during an isothermal process.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Adiabatic Process</h4>
+                <p>
+                    A process in which no heat is transferred
+                    between the system and surroundings.
+                </p>
+                <strong>Q = 0</strong>
+            </div>
+
+            <div class="concept-card">
+                <h4>Isochoric Process</h4>
+                <p>
+                    A process occurring at constant volume.
+                    Boundary pressure-volume work is zero.
+                </p>
+                <strong>W = 0</strong>
+            </div>
+
+            <div class="concept-card">
+                <h4>Isobaric Process</h4>
+                <p>
+                    A process occurring at constant pressure.
+                    Boundary work may occur when volume changes.
+                </p>
+            </div>
+
+        </div>
+
+        <h3>4.7 Worked Example</h3>
+
+        <p>
+            A thermodynamic system receives 800 J of heat
+            and performs 300 J of work on its surroundings.
+            Calculate the change in its internal energy.
+        </p>
+
+        <div class="formula-card">
+            <p>Given:</p>
+            <strong>Q = +800 J</strong>
+            <strong>W = +300 J</strong>
+
+            <p>Solution:</p>
+            <strong>ΔU = Q − W</strong>
+            <strong>ΔU = 800 − 300</strong>
+            <strong>ΔU = +500 J</strong>
+
+            <p>
+                The internal energy increases by 500 joules.
+            </p>
+        </div>
+
+        <h3>4.8 Another Worked Example</h3>
+
+        <p>
+            A gas receives 250 J of heat while 100 J of work
+            is performed on the gas. Determine its change
+            in internal energy.
+        </p>
+
+        <div class="formula-card">
+            <p>Given:</p>
+            <strong>Q = +250 J</strong>
+            <strong>W = −100 J</strong>
+
+            <p>Solution:</p>
+            <strong>ΔU = Q − W</strong>
+            <strong>ΔU = 250 − (−100)</strong>
+            <strong>ΔU = +350 J</strong>
+
+            <p>
+                The internal energy increases by 350 joules.
+            </p>
+        </div>
+
+        <h3>4.9 Real-World Applications</h3>
+
+        <ul>
+            <li>Engines convert energy into mechanical work.</li>
+            <li>Compressors require work input to increase gas pressure.</li>
+            <li>Industrial boilers transfer heat into working fluids.</li>
+            <li>Refrigeration systems use work to move heat between regions.</li>
+            <li>Power plants use energy transformations to generate electricity.</li>
+        </ul>
+
+        <div class="module-summary">
+            <h3>Module Summary</h3>
+            <p>
+                Internal energy represents microscopic energy
+                stored within a system. Heat and work are two
+                ways energy can cross the system boundary.
+                The First Law of Thermodynamics expresses
+                energy conservation through ΔU = Q − W
+                using the convention that work done by the
+                system is positive.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="module-activity">
+        <h3>Interactive Activity: First Law Calculator</h3>
+        <p>
+            Enter the heat transferred and work done by
+            a system to calculate its change in internal energy.
+        </p>
+
+        <label for="lesson4Heat">Heat Added to the System (J)</label>
+        <input type="number" id="lesson4Heat" placeholder="Enter heat value">
+
+        <label for="lesson4Work">Work Done by the System (J)</label>
+        <input type="number" id="lesson4Work" placeholder="Enter work value">
+
+        <button type="button" id="calculateLesson4">
+            Calculate Internal Energy
+        </button>
+
+        <div id="lesson4CalculationResult" aria-live="polite">
+            Your calculation will appear here.
+        </div>
+    </div>
+
+    <div class="module-knowledge-check">
+        <h3>Knowledge Check</h3>
+        <p>
+            Test your understanding of internal energy,
+            work, and the First Law of Thermodynamics.
+        </p>
+
+        <button type="button" id="startLesson4Quiz">
+            Start Module 4 Quiz
+        </button>
+
+        <div id="lesson4Quiz" class="hidden">
+            <p id="lesson4Question"></p>
+            <div id="lesson4Answers"></div>
+            <p id="lesson4Feedback" aria-live="polite"></p>
+            <button type="button" id="nextLesson4Question" class="hidden">
+                Next Question
+            </button>
+        </div>
+
+        <div id="lesson4QuizResult" class="hidden">
+            <h4>Module 4 Results</h4>
+            <p id="lesson4FinalScore"></p>
+        </div>
+    </div>
+
+    <div class="module-completion">
+        <button type="button" id="completeLesson4">
+            Mark Module 4 as Complete
+        </button>
+        <p id="lesson4CompletionMessage" aria-live="polite"></p>
+    </div>
+
+    <a href="#lessons" class="text-link">Back to Learning Center</a>
+
+</article>
+
+
+
+            <!-- LESSON 05 -->
+            <article class="lesson-detail" id="lesson-5">
+
+                
+<article class="lesson-detail" id="lesson-5">
+
+    <div class="module-header">
+        <span class="section-label">MODULE 05 | ENERGY QUALITY</span>
+        <h2>Entropy and Energy Efficiency</h2>
+        <p class="lesson-intro">
+            Discover how energy becomes dispersed, why natural
+            processes have a preferred direction, and how
+            thermodynamic systems use energy efficiently.
+        </p>
+        <div class="module-meta">
+            <span>College Level</span>
+            <span>Estimated Time: 40–50 Minutes</span>
+        </div>
+    </div>
+
+    <div class="module-objectives">
+        <h3>Learning Objectives</h3>
+        <p>At the end of this module, students should be able to:</p>
+        <ul>
+            <li>Define entropy and explain its importance in thermodynamics.</li>
+            <li>Describe the Second Law of Thermodynamics.</li>
+            <li>Calculate entropy changes in simple reversible processes.</li>
+            <li>Explain thermal efficiency and energy losses.</li>
+            <li>Calculate the efficiency of heat engines and Carnot engines.</li>
+        </ul>
+    </div>
+
+    <div class="module-lesson">
+
+        <h3>5.1 Understanding Entropy</h3>
+
+        <p>
+            Entropy is a thermodynamic state property that
+            describes the dispersal of energy and the number
+            of microscopic arrangements consistent with a
+            system's macroscopic state.
+        </p>
+
+        <p>
+            In statistical mechanics, entropy is related to
+            the number of possible microscopic arrangements
+            of a system.
+        </p>
+
+        <div class="formula-card">
+            <p>Boltzmann's Entropy Equation</p>
+            <strong>S = kB ln Ω</strong>
+            <ul>
+                <li>S = entropy (J/K)</li>
+                <li>kB = Boltzmann constant</li>
+                <li>Ω = number of accessible microstates</li>
+            </ul>
+        </div>
+
+        <h3>5.2 The Second Law of Thermodynamics</h3>
+
+        <p>
+            The Second Law explains the direction of natural
+            processes. For an isolated system, total entropy
+            cannot decrease. It remains constant in an ideal
+            reversible process and increases in an irreversible
+            process.
+        </p>
+
+        <div class="lesson-highlight">
+            <h4>Important Principle</h4>
+            <p>
+                The total entropy of an isolated system
+                increases or remains constant.
+            </p>
+        </div>
+
+        <h3>5.3 Entropy Change</h3>
+
+        <p>
+            For a reversible heat transfer occurring at a
+            constant temperature, entropy change can be
+            calculated using the following equation:
+        </p>
+
+        <div class="formula-card">
+            <p>Entropy Change</p>
+            <strong>ΔS = Qrev / T</strong>
+            <ul>
+                <li>ΔS = entropy change (J/K)</li>
+                <li>Qrev = reversible heat transfer (J)</li>
+                <li>T = absolute temperature (K)</li>
+            </ul>
+            <p>
+                Temperature must be expressed in kelvin.
+            </p>
+        </div>
+
+        <h3>5.4 Entropy in Different Processes</h3>
+
+        <div class="concept-grid">
+
+            <div class="concept-card">
+                <h4>Reversible Process</h4>
+                <p>
+                    An ideal process that can be reversed
+                    without leaving a net change in the
+                    system and surroundings.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Irreversible Process</h4>
+                <p>
+                    A real process involving effects such as
+                    friction, uncontrolled expansion, or
+                    heat transfer across a finite temperature
+                    difference.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Isolated System</h4>
+                <p>
+                    A system that exchanges neither matter
+                    nor energy with its surroundings.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Entropy Generation</h4>
+                <p>
+                    Entropy produced by irreversibilities
+                    within a process. It is never negative.
+                </p>
+            </div>
+
+        </div>
+
+        <h3>5.5 Heat Engines and Thermal Efficiency</h3>
+
+        <p>
+            A heat engine operates by receiving energy from
+            a high-temperature source, converting part of
+            that energy into useful work, and rejecting the
+            remaining heat to a lower-temperature sink.
+        </p>
+
+        <div class="formula-card">
+            <p>Heat Engine Efficiency</p>
+            <strong>η = (Wout / Qin) × 100%</strong>
+            <p>
+                Since Wout = Qin − Qout:
+            </p>
+            <strong>η = [(Qin − Qout) / Qin] × 100%</strong>
+            <ul>
+                <li>η = thermal efficiency</li>
+                <li>Wout = useful work output</li>
+                <li>Qin = heat supplied</li>
+                <li>Qout = heat rejected</li>
+            </ul>
+        </div>
+
+        <h3>5.6 Carnot Efficiency</h3>
+
+        <p>
+            The Carnot cycle represents an ideal reversible
+            heat engine operating between two thermal
+            reservoirs. It establishes the maximum possible
+            efficiency for an engine operating between
+            those temperatures.
+        </p>
+
+        <div class="formula-card">
+            <p>Carnot Efficiency</p>
+            <strong>η = (1 − Tc / Th) × 100%</strong>
+            <ul>
+                <li>Tc = cold reservoir temperature (K)</li>
+                <li>Th = hot reservoir temperature (K)</li>
+            </ul>
+            <p>
+                The Carnot efficiency is a theoretical
+                maximum, not the efficiency of every
+                real-world engine.
+            </p>
+        </div>
+
+        <h3>5.7 Worked Example: Entropy Change</h3>
+
+        <p>
+            A system reversibly absorbs 600 J of heat at
+            a constant temperature of 300 K. Calculate
+            its entropy change.
+        </p>
+
+        <div class="formula-card">
+            <p>Given:</p>
+            <strong>Qrev = 600 J</strong>
+            <strong>T = 300 K</strong>
+            <p>Solution:</p>
+            <strong>ΔS = Qrev / T</strong>
+            <strong>ΔS = 600 / 300</strong>
+            <strong>ΔS = 2 J/K</strong>
+        </div>
+
+        <h3>5.8 Worked Example: Thermal Efficiency</h3>
+
+        <p>
+            A heat engine receives 1,500 J of heat and
+            produces 450 J of useful work. Determine
+            its thermal efficiency.
+        </p>
+
+        <div class="formula-card">
+            <p>Given:</p>
+            <strong>Qin = 1,500 J</strong>
+            <strong>Wout = 450 J</strong>
+            <p>Solution:</p>
+            <strong>η = (Wout / Qin) × 100%</strong>
+            <strong>η = (450 / 1500) × 100%</strong>
+            <strong>η = 30%</strong>
+        </div>
+
+        <h3>5.9 Real-World Applications</h3>
+
+        <ul>
+            <li>Improving the efficiency of power plants.</li>
+            <li>Reducing energy losses in engines.</li>
+            <li>Designing efficient refrigeration systems.</li>
+            <li>Understanding energy conservation in industrial processes.</li>
+            <li>Developing more efficient heating and cooling systems.</li>
+        </ul>
+
+        <div class="module-summary">
+            <h3>Module Summary</h3>
+            <p>
+                Entropy helps describe the direction of
+                thermodynamic processes. The Second Law
+                states that the total entropy of an isolated
+                system cannot decrease. Thermal efficiency
+                measures how effectively supplied energy
+                is converted into useful work. The Carnot
+                cycle establishes the theoretical maximum
+                efficiency between two temperatures.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="module-activity">
+        <h3>Interactive Activity: Efficiency Calculator</h3>
+        <p>
+            Enter the heat supplied and useful work produced
+            by a heat engine to determine its efficiency.
+        </p>
+
+        <label for="lesson5InputHeat">Heat Supplied (J)</label>
+        <input type="number" id="lesson5InputHeat" placeholder="Enter heat supplied">
+
+        <label for="lesson5OutputWork">Useful Work Output (J)</label>
+        <input type="number" id="lesson5OutputWork" placeholder="Enter work output">
+
+        <button type="button" id="calculateLesson5">
+            Calculate Efficiency
+        </button>
+
+        <div id="lesson5CalculationResult" aria-live="polite">
+            Your result will appear here.
+        </div>
+    </div>
+
+    <div class="module-knowledge-check">
+        <h3>Knowledge Check</h3>
+        <p>Test your understanding of entropy and efficiency.</p>
+
+        <button type="button" id="startLesson5Quiz">
+            Start Module 5 Quiz
+        </button>
+
+        <div id="lesson5Quiz" class="hidden">
+            <p id="lesson5Question"></p>
+            <div id="lesson5Answers"></div>
+            <p id="lesson5Feedback" aria-live="polite"></p>
+            <button type="button" id="nextLesson5Question" class="hidden">
+                Next Question
+            </button>
+        </div>
+
+        <div id="lesson5QuizResult" class="hidden">
+            <h4>Module 5 Results</h4>
+            <p id="lesson5FinalScore"></p>
+        </div>
+    </div>
+
+    <div class="module-completion">
+        <button type="button" id="completeLesson5">
+            Mark Module 5 as Complete
+        </button>
+        <p id="lesson5CompletionMessage" aria-live="polite"></p>
+    </div>
+
+    <a href="#lessons" class="text-link">Back to Learning Center</a>
+
+</article>
+
+
+            <!-- LESSON 06 -->
+            <article class="lesson-detail" id="lesson-6">
+
+                
+<article class="lesson-detail" id="lesson-6">
+
+    <div class="module-header">
+        <span class="section-label">MODULE 06 | REAL-WORLD APPLICATIONS</span>
+        <h2>Applications of Thermodynamics</h2>
+        <p class="lesson-intro">
+            Connect the principles of thermodynamics to
+            machines, transportation, electricity generation,
+            refrigeration, and everyday technology.
+        </p>
+        <div class="module-meta">
+            <span>College Level</span>
+            <span>Estimated Time: 40–50 Minutes</span>
+        </div>
+    </div>
+
+    <div class="module-objectives">
+        <h3>Learning Objectives</h3>
+        <p>At the end of this module, students should be able to:</p>
+        <ul>
+            <li>Identify common applications of thermodynamics.</li>
+            <li>Explain the operation of basic heat engines.</li>
+            <li>Describe refrigeration and heat pump systems.</li>
+            <li>Explain thermodynamics in power generation.</li>
+            <li>Apply thermodynamic principles to everyday situations.</li>
+        </ul>
+    </div>
+
+    <div class="module-lesson">
+
+        <h3>6.1 Thermodynamics in Everyday Life</h3>
+
+        <p>
+            Thermodynamics plays an important role in
+            modern technology. It explains how energy
+            is transferred and transformed in machines,
+            appliances, transportation systems, and
+            industrial processes.
+        </p>
+
+        <p>
+            Understanding these principles helps engineers
+            develop systems that are more efficient,
+            reliable, and sustainable.
+        </p>
+
+        <h3>6.2 Internal Combustion Engines</h3>
+
+        <p>
+            Internal combustion engines convert the chemical
+            energy of fuel into thermal energy and then
+            mechanical work. They are commonly used in
+            automobiles, motorcycles, generators, and
+            other machines.
+        </p>
+
+        <div class="concept-grid">
+
+            <div class="concept-card">
+                <h4>Intake</h4>
+                <p>
+                    Air or an air-fuel mixture enters
+                    the engine cylinder.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Compression</h4>
+                <p>
+                    The piston compresses the contents
+                    of the cylinder.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Power</h4>
+                <p>
+                    Combustion increases gas pressure,
+                    pushing the piston and producing work.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Exhaust</h4>
+                <p>
+                    Combustion products leave the cylinder.
+                </p>
+            </div>
+
+        </div>
+
+        <h3>6.3 Refrigeration Systems</h3>
+
+        <p>
+            Refrigerators transfer heat from a low-temperature
+            region to a higher-temperature surrounding
+            environment by using external work.
+        </p>
+
+        <p>
+            A common refrigeration system uses a refrigerant
+            that circulates through four major components.
+        </p>
+
+        <div class="concept-grid">
+
+            <div class="concept-card">
+                <h4>Evaporator</h4>
+                <p>
+                    The refrigerant absorbs heat from the
+                    refrigerated space.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Compressor</h4>
+                <p>
+                    Work is supplied to increase the
+                    refrigerant's pressure.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Condenser</h4>
+                <p>
+                    The refrigerant releases heat to
+                    the surroundings.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Expansion Valve</h4>
+                <p>
+                    The refrigerant pressure is reduced
+                    before it returns to the evaporator.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="formula-card">
+            <p>Coefficient of Performance of a Refrigerator</p>
+            <strong>COP = Qc / Win</strong>
+            <ul>
+                <li>COP = coefficient of performance</li>
+                <li>Qc = heat removed from the cold space</li>
+                <li>Win = work input</li>
+            </ul>
+        </div>
+
+        <h3>6.4 Heat Pumps</h3>
+
+        <p>
+            A heat pump transfers thermal energy from a
+            lower-temperature source to a higher-temperature
+            space. It uses external work to accomplish
+            this transfer.
+        </p>
+
+        <div class="formula-card">
+            <p>Heat Pump Coefficient of Performance</p>
+            <strong>COPHP = Qh / Win</strong>
+            <ul>
+                <li>Qh = heat delivered to the warm space</li>
+                <li>Win = work input</li>
+            </ul>
+        </div>
+
+        <h3>6.5 Power Plants and Electricity Generation</h3>
+
+        <p>
+            Many power plants use thermodynamic cycles
+            to convert thermal energy into mechanical
+            work and eventually electrical energy.
+        </p>
+
+        <p>
+            In a steam power plant, heat is used to produce
+            high-pressure steam. The steam expands through
+            a turbine, which drives an electrical generator.
+        </p>
+
+        <ul>
+            <li>Boiler: transfers heat to water and produces steam.</li>
+            <li>Turbine: converts steam energy into mechanical work.</li>
+            <li>Generator: converts mechanical energy into electrical energy.</li>
+            <li>Condenser: removes heat and condenses steam into water.</li>
+            <li>Pump: moves water back toward the boiler.</li>
+        </ul>
+
+        <h3>6.6 Solar Thermal Energy</h3>
+
+        <p>
+            Solar thermal systems collect radiation from
+            the Sun and convert it into useful thermal energy.
+            This energy may be used for water heating,
+            industrial heating, or electricity generation.
+        </p>
+
+        <div class="lesson-highlight">
+            <h4>Science in the Community</h4>
+            <p>
+                Solar water heaters are examples of how
+                heat transfer and energy conversion can
+                be applied to reduce dependence on
+                conventional energy sources.
+            </p>
+        </div>
+
+        <h3>6.7 Thermodynamics in the Human Body</h3>
+
+        <p>
+            The human body also follows thermodynamic
+            principles. Metabolic processes transform
+            chemical energy from food into useful work
+            and thermal energy.
+        </p>
+
+        <ul>
+            <li>Metabolism involves chemical energy transformations.</li>
+            <li>Blood circulation helps distribute thermal energy.</li>
+            <li>Sweating supports heat loss through evaporation.</li>
+            <li>Heat exchange with the environment affects body temperature.</li>
+        </ul>
+
+        <h3>6.8 Worked Example: Refrigerator Performance</h3>
+
+        <p>
+            A refrigerator removes 600 J of heat from its
+            interior while consuming 200 J of work.
+            Calculate its coefficient of performance.
+        </p>
+
+        <div class="formula-card">
+            <p>Given:</p>
+            <strong>Qc = 600 J</strong>
+            <strong>Win = 200 J</strong>
+            <p>Solution:</p>
+            <strong>COP = Qc / Win</strong>
+            <strong>COP = 600 / 200</strong>
+            <strong>COP = 3</strong>
+        </div>
+
+        <h3>6.9 Worked Example: Heat Pump</h3>
+
+        <p>
+            A heat pump delivers 2,400 J of heat to a
+            room while consuming 600 J of work.
+            Determine its coefficient of performance.
+        </p>
+
+        <div class="formula-card">
+            <p>Given:</p>
+            <strong>Qh = 2,400 J</strong>
+            <strong>Win = 600 J</strong>
+            <p>Solution:</p>
+            <strong>COPHP = Qh / Win</strong>
+            <strong>COPHP = 2,400 / 600</strong>
+            <strong>COPHP = 4</strong>
+        </div>
+
+        <h3>6.10 Real-World Applications and Innovations</h3>
+
+        <div class="concept-grid">
+
+            <div class="concept-card">
+                <h4>Electricity Generation</h4>
+                <p>
+                    Thermodynamic cycles help power
+                    thermal electricity plants.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Transportation</h4>
+                <p>
+                    Engines transform energy into
+                    mechanical motion.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Food Preservation</h4>
+                <p>
+                    Refrigeration slows food deterioration
+                    by maintaining lower temperatures.
+                </p>
+            </div>
+
+            <div class="concept-card">
+                <h4>Renewable Energy</h4>
+                <p>
+                    Solar thermal technologies collect
+                    and use energy from sunlight.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="module-summary">
+            <h3>Module Summary</h3>
+            <p>
+                Thermodynamics has important applications
+                in engines, refrigerators, heat pumps,
+                power plants, solar thermal systems, and
+                the human body. These technologies
+                demonstrate how heat, work, and internal
+                energy interact in practical systems.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="module-activity">
+        <h3>Interactive Activity: Identify the Application</h3>
+        <p>
+            Read each situation and identify the
+            thermodynamic application being described.
+        </p>
+
+        <div id="lesson6Activity">
+            <p id="lesson6Scenario">
+                A machine removes heat from the inside
+                of a cabinet and releases it into the room.
+            </p>
+
+            <div id="lesson6Options">
+                <button type="button" class="lesson6-option" data-answer="refrigerator">
+                    Refrigerator
+                </button>
+                <button type="button" class="lesson6-option" data-answer="engine">
+                    Heat Engine
+                </button>
+                <button type="button" class="lesson6-option" data-answer="solar">
+                    Solar Thermal Collector
+                </button>
+                <button type="button" class="lesson6-option" data-answer="turbine">
+                    Steam Turbine
+                </button>
+            </div>
+
+            <p id="lesson6ActivityFeedback" aria-live="polite"></p>
+
+            <button type="button" id="nextLesson6Scenario">
+                Next Scenario
+            </button>
+        </div>
+    </div>
+
+    <div class="module-knowledge-check">
+        <h3>Knowledge Check</h3>
+        <p>
+            Test your understanding of thermodynamics
+            and its practical applications.
+        </p>
+
+        <button type="button" id="startLesson6Quiz">
+            Start Module 6 Quiz
+        </button>
+
+        <div id="lesson6Quiz" class="hidden">
+            <p id="lesson6Question"></p>
+            <div id="lesson6Answers"></div>
+            <p id="lesson6Feedback" aria-live="polite"></p>
+            <button type="button" id="nextLesson6Question" class="hidden">
+                Next Question
+            </button>
+        </div>
+
+        <div id="lesson6QuizResult" class="hidden">
+            <h4>Module 6 Results</h4>
+            <p id="lesson6FinalScore"></p>
+        </div>
+    </div>
+
+    <div class="module-completion">
+        <button type="button" id="completeLesson6">
+            Mark Module 6 as Complete
+        </button>
+        <p id="lesson6CompletionMessage" aria-live="polite"></p>
+    </div>
+
+    <a href="#lessons" class="text-link">Back to Learning Center</a>
+
+</article>
+
+    <!-- RESOURCES -->
+    <section class="resources section-padding" id="resources">
+
+        <div class="container resource-grid">
+
+            <div class="resource-intro">
+                <span class="section-label">STUDY MATERIALS</span>
+                <h2>Learn Beyond the <span>Classroom</span></h2>
+
+                <p>
+                    Strengthen your knowledge with useful scientific
+                    resources, reference materials, formulas, and
+                    real-world examples.
+                </p>
+            </div>
+
+            <div class="resource-list">
+
+                <a href="#laws" class="resource-item">
+                    <i class="fas fa-file-lines"></i>
+                    <div>
+                        <h3>Thermodynamics Study Guide</h3>
+                        <p>Review the fundamental concepts and laws.</p>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+                <a href="#lessons" class="resource-item">
+                    <i class="fas fa-square-root-variable"></i>
+                    <div>
+                        <h3>Formula Reference</h3>
+                        <p>Explore important thermodynamic equations.</p>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+                <a href="#activities" class="resource-item">
+                    <i class="fas fa-flask"></i>
+                    <div>
+                        <h3>Scientific Applications</h3>
+                        <p>Connect scientific principles to daily life.</p>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+<!-- =================================================
+     THERMOQUEST SIMULATION LABORATORY
+================================================== -->
+
+<!-- =================================================
+     THREE METHODS OF HEAT TRANSFER
+================================================== -->
+
+<section class="heat-explorer section-padding" id="heat-explorer">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-label">INTERACTIVE SCIENCE</span>
+            <h2>Explore the Three Methods of Heat Transfer</h2>
+            <p>
+                Select a method to discover how thermal energy
+                travels through different materials and environments.
+            </p>
+        </div>
+
+        <div class="heat-method-tabs">
+
+            <button class="heat-tab active" data-method="conduction">
+                Conduction
+            </button>
+
+            <button class="heat-tab" data-method="convection">
+                Convection
+            </button>
+
+            <button class="heat-tab" data-method="radiation">
+                Radiation
+            </button>
+
+        </div>
+
+        <div class="heat-experiment-card">
+
+            <div class="heat-visual" id="heatVisual">
+
+                <div class="conduction-visual">
+                    <div class="metal-rod">
+                        <div class="heat-source">HEAT</div>
+                        <div class="heat-particles">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="heat-information">
+
+                <span class="section-label" id="methodLabel">
+                    METHOD 01
+                </span>
+
+                <h3 id="methodTitle">Conduction</h3>
+
+                <p id="methodDescription">
+                    Conduction is the transfer of thermal energy
+                    through direct contact between particles.
+                </p>
+
+                <div class="heat-example">
+                    <h4>Real-Life Example</h4>
+                    <p id="methodExample">
+                        A metal spoon becomes hot when placed
+                        inside a pot of hot soup.
+                    </p>
+                </div>
+
+                <div class="heat-principle">
+                    <h4>Scientific Principle</h4>
+                    <p id="methodPrinciple">
+                        Energy transfers through particle interactions
+                        without bulk movement of the material.
+                    </p>
+                </div>
+
+                <button class="btn btn-primary" id="heatExploreButton">
+                    Explore This Method
+                </button>
+
+                <p class="heat-observation" id="heatObservation" aria-live="polite">
+                    Select Explore This Method to begin.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="simulation-section section-padding" id="simulation">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-label">EXPERIMENT AND DISCOVER</span>
+            <h2>Thermodynamics Simulation Laboratory</h2>
+            <p>
+                Explore how thermal energy moves between objects
+                with different temperatures.
+            </p>
+        </div>
+
+        <div class="simulation-container">
+
+            <div class="simulation-heading">
+                <h3>Heat Transfer Simulator</h3>
+                <p>
+                    Adjust the temperatures and observe what happens
+                    when two objects are placed in thermal contact.
+                </p>
+            </div>
+
+            <div class="temperature-controls">
+
+                <div class="temperature-control">
+                    <label for="hotTemperature">
+                        Hot Object Temperature
+                    </label>
+
+                    <output id="hotTemperatureValue">80 °C</output>
+
+                    <input
+                        type="range"
+                        id="hotTemperature"
+                        min="30"
+                        max="100"
+                        value="80"
+                    >
+
+                    <div class="temperature-indicator hot-indicator">
+                        HOT OBJECT
+                    </div>
+                </div>
+
+                <div class="temperature-control">
+                    <label for="coldTemperature">
+                        Cold Object Temperature
+                    </label>
+
+                    <output id="coldTemperatureValue">20 °C</output>
+
+                    <input
+                        type="range"
+                        id="coldTemperature"
+                        min="0"
+                        max="70"
+                        value="20"
+                    >
+
+                    <div class="temperature-indicator cold-indicator">
+                        COLD OBJECT
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="simulation-visual">
+
+                <div class="object-display">
+                    <div class="object-box hot-object">
+                        <span>HOT</span>
+                        <strong id="hotDisplay">80 °C</strong>
+                    </div>
+
+                    <div class="heat-transfer-arrow">
+                        HEAT TRANSFER
+                    </div>
+
+                    <div class="object-box cold-object">
+                        <span>COLD</span>
+                        <strong id="coldDisplay">20 °C</strong>
+                    </div>
+                </div>
+
+                <div class="equilibrium-display">
+                    <span>FINAL EQUILIBRIUM TEMPERATURE</span>
+                    <strong id="equilibriumTemperature">-- °C</strong>
+                </div>
+
+            </div>
+
+            <div class="simulation-actions">
+
+                <button
+                    type="button"
+                    class="btn btn-primary"
+                    id="runSimulation"
+                >
+                    Run Simulation
+                </button>
+
+                <button
+                    type="button"
+                    class="btn btn-outline"
+                    id="resetSimulation"
+                >
+                    Reset
+                </button>
+
+            </div>
+
+            <div
+                id="simulationResult"
+                class="simulation-result"
+                aria-live="polite"
+            >
+                Adjust the temperatures and select Run Simulation
+                to begin the experiment.
+            </div>
+
+            <div class="simulation-note">
+                <h4>Scientific Principle</h4>
+                <p>
+                    When two objects at different temperatures are placed
+                    in thermal contact, heat transfers from the hotter
+                    object to the colder object until thermal equilibrium
+                    is reached.
+                </p>
+                <p>
+                    This simplified simulation assumes equal masses,
+                    equal specific heat capacities, and no heat exchange
+                    with the surroundings.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- ACTIVITIES -->
+    <section class="activities section-padding" id="activities">
+
+<!-- THERMOQUEST ASSESSMENT CENTER -->
+
+<!-- THERMOQUEST ASSESSMENT CENTER -->
+<section class="assessment-section section-padding" id="assessment">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-tag">TEST YOUR KNOWLEDGE</span>
+            <h2>Assessment Center</h2>
+            <p>
+                Evaluate your understanding of thermodynamics through
+                challenging college-level assessments.
+            </p>
+        </div>
+
+        <div class="assessment-container">
+
+            <!-- ASSESSMENT INTRODUCTION -->
+            <div class="assessment-intro" id="assessmentIntro">
+
+                <h3>Choose Your Assessment</h3>
+                <p>
+                    Select a topic and begin your 50-question
+                    thermodynamics assessment.
+                </p>
+
+                <div class="assessment-options">
+
+                    <div class="assessment-field">
+                        <label for="assessmentTopic">Select Topic</label>
+                        <select id="assessmentTopic">
+                            <option value="all">All Topics</option>
+                            <option value="introduction">Introduction to Thermodynamics</option>
+                            <option value="temperature">Temperature and Heat</option>
+                            <option value="transfer">Heat Transfer</option>
+                            <option value="energy">Internal Energy and Work</option>
+                            <option value="entropy">Entropy and Efficiency</option>
+                            <option value="applications">Applications of Thermodynamics</option>
+                        </select>
+                    </div>
+
+                    <div class="assessment-field">
+                        <label for="assessmentDifficulty">Difficulty Level</label>
+                        <select id="assessmentDifficulty">
+                            <option value="hard">Hard - College Level</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="assessment-info">
+                    <div>
+                        <strong>50</strong>
+                        <span>Questions</span>
+                    </div>
+                    <div>
+                        <strong>Hard</strong>
+                        <span>Difficulty Level</span>
+                    </div>
+                    <div>
+                        <strong>College</strong>
+                        <span>Academic Level</span>
+                    </div>
+                </div>
+
+                <button type="button" class="btn btn-primary" id="startAssessment">
+                    Start Assessment
+                </button>
+
+            </div>
+
+            <!-- QUESTION AREA -->
+            <div class="assessment-quiz hidden" id="assessmentQuiz">
+
+                <div class="assessment-progress">
+                    <div>
+                        <span id="assessmentQuestionNumber">Question 1 of 50</span>
+                        <span id="assessmentScore">Score: 0</span>
+                    </div>
+
+                    <div class="assessment-progress-track">
+                        <div id="assessmentProgressBar"></div>
+                    </div>
+                </div>
+
+                <div class="assessment-question">
+                    <span id="assessmentCategory">THERMODYNAMICS</span>
+                    <h3 id="assessmentQuestion">
+                        Your question will appear here.
+                    </h3>
+                </div>
+
+                <div class="assessment-answers" id="assessmentAnswers"></div>
+
+                <div class="assessment-feedback hidden" id="assessmentFeedback">
+                    <h4 id="assessmentFeedbackTitle"></h4>
+                    <p id="assessmentFeedbackText"></p>
+                </div>
+
+                <button type="button" class="btn btn-primary hidden" id="nextAssessmentQuestion">
+                    Next Question
+                </button>
+
+            </div>
+
+            <!-- RESULTS AREA -->
+            <div class="assessment-results hidden" id="assessmentResults">
+
+                <span class="section-tag">ASSESSMENT COMPLETED</span>
+                <h3>Your Assessment Results</h3>
+
+                <div class="assessment-score-circle">
+                    <strong id="finalAssessmentScore">0/50</strong>
+                    <span>Final Score</span>
+                </div>
+
+                <h4 id="assessmentResultMessage">
+                    Your result will appear here.
+                </h4>
+
+                <p id="assessmentResultDescription"></p>
+
+                <div class="assessment-result-details">
+                    <div>
+                        <strong id="correctAnswers">0</strong>
+                        <span>Correct Answers</span>
+                    </div>
+
+                    <div>
+                        <strong id="wrongAnswers">0</strong>
+                        <span>Incorrect Answers</span>
+                    </div>
+
+                    <div>
+                        <strong id="assessmentPercentage">0%</strong>
+                        <span>Percentage</span>
+                    </div>
+                </div>
+
+                <button type="button" class="btn btn-primary" id="retakeAssessment">
+                    Retake Assessment
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- END ASSESSMENT CENTER -->
+ <!-- THERMOQUEST FORMULA AND CALCULATOR LAB -->
+
+<section class="formula-lab section-padding" id="formula-lab">
+
+    <div class="section-header">
+        <span class="section-tag">THERMODYNAMICS TOOLKIT</span>
+        <h2>Formula & Calculator Lab</h2>
+        <p>
+            Explore essential thermodynamics equations and solve
+            problems using the interactive calculator.
+        </p>
+    </div>
+
+    <div class="formula-lab-container">
+
+        <div class="formula-selector">
+            <label for="formulaSelect">Select a Formula</label>
+
+            <select id="formulaSelect">
+                <option value="heat">Heat Energy</option>
+                <option value="first-law">First Law of Thermodynamics</option>
+                <option value="efficiency">Thermal Efficiency</option>
+                <option value="entropy">Entropy Change</option>
+                <option value="carnot">Carnot Efficiency</option>
+                <option value="cop">Coefficient of Performance</option>
+            </select>
+        </div>
+
+        <div class="formula-display">
+            <span class="formula-label">SELECTED EQUATION</span>
+            <h3 id="formulaTitle">Heat Energy</h3>
+            <div class="formula-equation" id="formulaEquation">
+                Q = mcΔT
+            </div>
+            <p id="formulaDescription">
+                Calculate the amount of heat absorbed or released
+                by a substance.
+            </p>
+        </div>
+
+        <div class="calculator-panel">
+
+            <h3>Enter Your Values</h3>
+
+            <div id="calculatorInputs"></div>
+
+            <button type="button" id="calculateFormula">
+                Calculate Result
+            </button>
+
+            <div class="calculator-result" id="calculatorResult">
+                <span>CALCULATION RESULT</span>
+                <h2 id="resultValue">—</h2>
+                <p id="resultExplanation">
+                    Enter the required values to begin.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- END FORMULA AND CALCULATOR LAB -->
+
+<!-- THERMOQUEST PROBLEM-SOLVING CHALLENGE -->
+
+<section class="problem-challenge section-padding" id="problem-challenge">
+
+    <div class="section-header">
+        <span class="section-tag">ADVANCED LEARNING ACTIVITY</span>
+        <h2>Problem-Solving Challenge</h2>
+        <p>
+            Test your understanding of thermodynamics through
+            randomly generated numerical problems.
+        </p>
+    </div>
+
+    <div class="challenge-container">
+
+        <!-- SCOREBOARD -->
+
+        <div class="challenge-scoreboard">
+
+            <div class="score-card">
+                <span>Correct Answers</span>
+                <h3 id="challengeCorrect">0</h3>
+            </div>
+
+            <div class="score-card">
+                <span>Total Attempts</span>
+                <h3 id="challengeAttempts">0</h3>
+            </div>
+
+            <div class="score-card">
+                <span>Accuracy</span>
+                <h3 id="challengeAccuracy">0%</h3>
+            </div>
+
+        </div>
+
+        <!-- CHALLENGE INTRODUCTION -->
+
+        <div class="challenge-intro" id="challengeIntro">
+
+            <h3>Ready to Test Your Knowledge?</h3>
+
+            <p>
+                Solve randomly generated problems covering
+                important thermodynamics concepts and equations.
+            </p>
+
+            <button type="button" id="startChallenge">
+                Start Challenge
+            </button>
+
+        </div>
+
+        <!-- PROBLEM AREA -->
+
+        <div class="challenge-question hidden" id="challengeQuestion">
+
+            <div class="challenge-question-header">
+
+                <span id="challengeTopic">HEAT ENERGY</span>
+
+                <span id="challengeNumber">Problem 1</span>
+
+            </div>
+
+            <h3 id="problemTitle">Problem Title</h3>
+
+            <p id="problemDescription">
+                Your problem will appear here.
+            </p>
+
+            <div class="problem-formula">
+
+                <span>RELEVANT FORMULA</span>
+
+                <h3 id="problemFormula">Q = mcΔT</h3>
+
+            </div>
+
+            <div class="problem-answer-area">
+
+                <label for="problemAnswer">
+                    Enter Your Answer
+                </label>
+
+                <div class="problem-answer-input">
+
+                    <input
+                        type="number"
+                        id="problemAnswer"
+                        placeholder="Enter numerical answer"
+                        step="any"
+                    >
+
+                    <span id="problemUnit">J</span>
+
+                </div>
+
+                <button type="button" id="submitProblem">
+                    Submit Answer
+                </button>
+
+            </div>
+
+            <!-- FEEDBACK -->
+
+            <div class="problem-feedback hidden" id="problemFeedback">
+
+                <h4 id="feedbackTitle">Feedback</h4>
+
+                <p id="feedbackMessage"></p>
+
+            </div>
+
+            <!-- HINT AND SOLUTION -->
+
+            <div class="problem-tools">
+
+                <button type="button" id="showHint">
+                    Show Hint
+                </button>
+
+                <button type="button" id="showSolution">
+                    Show Solution
+                </button>
+
+            </div>
+
+            <div class="problem-hint hidden" id="problemHint">
+
+                <h4>Hint</h4>
+
+                <p id="hintText"></p>
+
+            </div>
+
+            <div class="problem-solution hidden" id="problemSolution">
+
+                <h4>Step-by-Step Solution</h4>
+
+                <p id="solutionText"></p>
+
+                <h3 id="solutionAnswer"></h3>
+
+            </div>
+
+            <button type="button" id="nextProblem" class="hidden">
+                Next Problem
+            </button>
+
+        </div>
+
+        <!-- COMPLETION AREA -->
+
+        <div class="challenge-complete hidden" id="challengeComplete">
+
+            <h3>Challenge Completed!</h3>
+
+            <p>Your performance summary:</p>
+
+            <h2 id="finalChallengeScore">0 / 0</h2>
+
+            <p id="finalChallengeMessage"></p>
+
+            <button type="button" id="restartChallenge">
+                Try Another Challenge
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- END PROBLEM-SOLVING CHALLENGE -->
+ 
+
+
+<!-- END ASSESSMENT CENTER -->
+
+        <section class="activities section-padding" id="activities"></section>
+
+        
+<!-- ACTIVITIES AND KNOWLEDGE CHALLENGE -->
+<section class="activities section-padding" id="activities">
+
+    <div class="container">
+
+        <div class="section-title">
+            <span class="section-label">INTERACTIVE LEARNING</span>
+            <h2>THERMOQUEST <span>Knowledge Challenge</span></h2>
+            <p>
+                Test your understanding of thermodynamics
+                through this interactive scientific quiz.
+            </p>
+        </div>
+
+        <div class="quiz-container">
+
+            <div class="quiz-header">
+                <div>
+                    <span class="quiz-label">THERMODYNAMICS QUIZ</span>
+                    <h3>Test Your Knowledge</h3>
+                </div>
+
+                <div class="quiz-score">
+                    Score: <span id="score">0</span>
+                </div>
+            </div>
+
+            <div class="quiz-progress">
+                <div id="progressBar"></div>
+            </div>
+
+            <p id="questionNumber">Question 1 of 10</p>
+
+            <h3 id="questionText">
+                Loading question...
+            </h3>
+
+            <div id="answerButtons" class="answer-buttons"></div>
+
+            <p id="feedback" class="quiz-feedback" aria-live="polite"></p>
+
+            <button id="nextButton" class="btn btn-primary" disabled>
+                Next Question
+            </button>
+
+            <div id="quizResult" class="quiz-result" hidden>
+                <h3>Challenge Completed!</h3>
+                <p>Your final score:</p>
+                <h2 id="finalScore">0 / 10</h2>
+                <p id="resultMessage"></p>
+
+                <button id="restartButton" class="btn btn-primary">
+                    Retake Challenge
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- ABOUT -->
+    <section class="about section-padding" id="about">
+
+        <div class="container about-content">
+
+            <span class="section-label">ABOUT THE PROJECT</span>
+
+            <h2>Making Thermodynamics <span>Understandable.</span></h2>
+
+            <p>
+                THERMOQUEST is an educational website developed as an
+                academic learning resource to help students understand
+                the fundamental principles of thermodynamics.
+
+                Through organized lessons, scientific resources,
+                interactive activities, and practical applications,
+                the platform aims to make physics learning more
+                engaging, accessible, and meaningful.
+            </p>
+
+            <a href="#home" class="btn btn-primary">
+                Explore THERMOQUEST
+            </a>
+
+        </div>
+    </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+                <a href="#home" class="logo footer-logo">
+                    <span class="logo-mark">T</span>
+                    THERMOQUEST
+                </a>
+                <p>
+                    Explore Energy. Understand Heat.
+                    Discover Thermodynamics.
+                </p>
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    © 2026 THERMOQUEST. Educational Project.
+                </p>
+                <p>
+                    Designed for Science Learning.
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
